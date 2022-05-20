@@ -5,8 +5,11 @@ public class Hogwards {
     private int transgress;
 
     public Hogwards(String firstName, String lastName, int witchkraft, int transgress) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.witchkraft = witchkraft;
+        this.transgress = transgress;
     }
-
 
     public String getFirstName() {
         return firstName;
